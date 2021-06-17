@@ -3,7 +3,7 @@
 
 ## 15.6.1 Packet Tracer - Configure IPv4 and IPv6 Static and Default Routes
 
-![15.6.1 Packet Tracer](./2nd-semester/chapter-15/img/network-structure.PNG)
+![15.6.1 Network-Structure](./2nd-semester/chapter-15/img/network-structure.PNG?raw=true "Title")
 
 
 
