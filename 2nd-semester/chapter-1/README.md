@@ -1,16 +1,14 @@
-Switch boot steps:
-Load POST (Power on self-test) program: 
-stored in ROM
-check the CPU subsystem, DRAM, flash file system.
+## Switch boot steps:
 
-Load Boot Loader:
-stored in ROM
-initialization: low-level CPU, CPU registers, flash file system, control physical memory, 
+1. Load POST (Power on self-test) program: 
+		POST program is stored in ROM. It check the CPU subsystem, DRAM, flash file system.
+2. Load Boot Loader:
+		It is stored in ROM. Initialization: low-level CPU, CPU registers, flash file system, control physical memory, 
 
-finally: locates and load default IOS image into physical memory and pass control of switch to IOS.
+3. finally: locates and load default IOS image into physical memory and pass control of switch to IOS.
 
 
-Important notes about Boot system command of cisco devices:
+## Important notes about Boot system command of cisco devices:
 
 We can set BOOT environment variable using boot system commmand on cisco devices.
 command: 
